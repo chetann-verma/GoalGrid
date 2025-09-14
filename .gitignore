@@ -1,0 +1,40 @@
+# --- Global OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code ---
+.vscode/
+
+# --- Node/React (frontend) ---
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Spring Boot/Java (backend) ---
+backend/target/
+backend/build/
+backend/.env
+backend/*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.apt_generated/
+backend/.factorypath
+backend/*.class
+
+# --- Maven/Gradle wrappers ---
+backend/.mvn/
+backend/.gradle/
+!backend/.mvn/wrapper/maven-wrapper.jar
+!backend/gradle/wrapper/gradle-wrapper.jar
+
+# --- IntelliJ IDEA ---
+backend/.idea/
+backend/*.iml
+
+# --- Miscellaneous ---
+*.log
